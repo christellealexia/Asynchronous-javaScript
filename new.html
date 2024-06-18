@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title></title>
+    <body>
+<h1>Today is Friday</h1>
+<p>On Friday we have fun</p>
+<script>
+    function randomColor(color){
+    let color = '#';
+    let letters = '0123456789ABCDF';
+    while(color.length < 7){
+        color += Math.floor(Math.random() * 16);
+        
+    }
+    return color;
+}
+    setInterval (() => {
+        randomColor
+    },3000);
+
+</script>
+    </body>
+    
+</html>
